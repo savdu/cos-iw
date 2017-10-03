@@ -35,9 +35,7 @@ import datetime
 import sqlite3
 import numpy as np # get it at: http://numpy.scipy.org/
 # path to the Million Song Dataset subset (uncompressed)
-msd_subset_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'MillionSongSubset')
-# /home/savannah/
-# /scratch/network/savannah
+msd_subset_path = '/scratch/network/savannah/raw/MillionSongSubset'
 msd_subset_data_path=os.path.join(msd_subset_path,'data')
 msd_subset_addf_path=os.path.join(msd_subset_path,'AdditionalFiles')
 assert os.path.isdir(msd_subset_path),'wrong path' # sanity check
