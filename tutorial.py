@@ -53,7 +53,7 @@ def encode_string(s):
 # CHANGE THIS TO YOUR LOCAL CONFIGURATION
 # IT SHOULD BE IN THE ADDITIONAL FILES
 # (you can use 'subset_track_metadata.db')
-dbfile = '/scratch/network/savannah/raw/AdditionalFiles'
+dbfile = '/scratch/network/savannah/raw/AdditionalFiles/track_metadata.db'
 assert os.path.isfile(dbfile),'not a file file' # sanity check
 
 # connect to the SQLite database
